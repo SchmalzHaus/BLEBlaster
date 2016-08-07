@@ -1,0 +1,10 @@
+August 5th, 2016 Brian Schmalz
+Problems found with Rev E:
+1) The SW_BTN needs to be a slide switch
+2) The WAKEUP and RST buttons are hard to reach and require considerable pressure to press. Consider changing to lighter buttons that are larger. Not sure where to move them though.
+3) P2_0, should have series 4.7K resistor to center pin of high/low block
+4) P2_4, should have series 4.7K resistor to center pin of high/low block
+5) EAN, should have 10 ohm resistor to center pin of high/low block
+6) (maybe?) Make P2_0, P2_4 and EAN avaialble (through jumpers) to chipKIT I/O pins
+7) The P0_4 and P1_5 are indicator pins and should be brought out to LEDs (with current limiting resistors or not?)
+8) SW_BTN and WAKEUP may or may not be needed, - check with Raghu.
